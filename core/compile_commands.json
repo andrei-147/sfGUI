@@ -1,0 +1,19 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-DDEBUG",
+      "-Iinclude",
+      "-m64",
+      "-g",
+      "-std=c++23",
+      "-c",
+      "-o",
+      "bin.obj/Debug/sfgui.o",
+      "src/sfgui.cpp"
+    ],
+    "directory": "/home/andrei/Projects/devel/cpp/sf-imgui/core",
+    "file": "/home/andrei/Projects/devel/cpp/sf-imgui/core/src/sfgui.cpp",
+    "output": "/home/andrei/Projects/devel/cpp/sf-imgui/core/bin.obj/Debug/sfgui.o"
+  }
+]
