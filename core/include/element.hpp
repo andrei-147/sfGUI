@@ -21,7 +21,7 @@ struct Element_Properties {
 class Element {
 
 private:
-    Element_Properties m_properties;
+    Element_Properties m_properties = Element_Properties();
 protected:
     Div* m_div_parent = nullptr;
 

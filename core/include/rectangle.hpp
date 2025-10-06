@@ -28,7 +28,7 @@ protected:
     sf::CircleShape m_circle_dr;
     sf::Text m_text_label = sf::Text(Theme::instance().m_theme_font);
 private:
-    Rectangle_Properties m_properties;
+    Rectangle_Properties m_properties = Rectangle_Properties();
 
     void update_position();
     void update_radius();

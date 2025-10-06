@@ -15,7 +15,7 @@ struct Transformable_Properties : public Element_Properties {
 class Transformable : public Element {
 
 private:
-    Transformable_Properties m_properties;
+    Transformable_Properties m_properties = Transformable_Properties();
 
 public:
     Transformable() = default;

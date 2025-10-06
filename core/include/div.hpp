@@ -10,7 +10,7 @@ namespace sfGUI {
 class Div : public Transformable {
 
 private:
-    Transformable_Properties m_properties;
+    Transformable_Properties m_properties = Transformable_Properties();
 
 protected:
     Div* m_parent_ptr;
