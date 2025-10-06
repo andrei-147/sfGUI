@@ -8,17 +8,6 @@
 namespace sfGUI {
 Rectangle::Rectangle() {}
 
-void Rectangle::update_position() {
-    sf::Vector2f actual_pos = m_properties.position + m_div_parent->get_position() + sf::Vector2f({m_properties.margin + m_properties.margin_left, m_properties.margin + m_properties.margin_top});
-    m_rectangle_h.setPosition(actual_pos);
-    m_rectangle_w.setPosition(actual_pos);
-    m_circle_ul.setPosition(actual_pos);
-    m_circle_dl.setPosition(actual_pos);
-    m_circle_ur.setPosition(actual_pos);
-    m_circle_dr.setPosition(actual_pos);
-    m_text_label.setPosition(actual_pos);
-}
-
 void Rectangle::update_radius() {
     sf::Vector2f actual_size = m_properties.size - sf::Vector2f({2 * m_properties.margin + m_properties.margin_top + m_properties.margin_bottom, 2 * m_properties.margin + m_properties.margin_left + m_properties.margin_right});
 
@@ -42,6 +31,13 @@ void Rectangle::update() {
     sf::Vector2f actual_size = m_properties.size - sf::Vector2f({2 * m_properties.margin + m_properties.margin_top + m_properties.margin_bottom, 2 * m_properties.margin + m_properties.margin_left + m_properties.margin_right});
     m_bounding_box = sf::FloatRect(actual_pos, actual_size);
 
+    m_rectangle_h.setPosition(actual_pos);
+    m_rectangle_w.setPosition(actual_pos);
+    m_circle_ul.setPosition(actual_pos);
+    m_circle_dl.setPosition(actual_pos);
+    m_circle_ur.setPosition(actual_pos);
+    m_circle_dr.setPosition(actual_pos);
+    m_text_label.setPosition(actual_pos);
     m_text_label.setFont(sfGUI::Theme::instance().m_theme_font);
 }
 
@@ -62,7 +58,6 @@ void Rectangle::draw(sf::RenderWindow &win) {
 
 void Rectangle::set_position(sf::Vector2f pos) {
     this->m_properties.position = pos;
-    this->update_position();
 }
 
 void Rectangle::set_radius(float rad) {

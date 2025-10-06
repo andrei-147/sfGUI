@@ -30,7 +30,6 @@ protected:
 private:
     Rectangle_Properties m_properties = Rectangle_Properties();
 
-    void update_position();
     void update_radius();
 
 public:

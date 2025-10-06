@@ -29,7 +29,7 @@ int main() {
             static float margin = 0.0f;
 
             sfGUI::Rectangle* rect = new sfGUI::Rectangle();
-            rect->set_color(sf::Color::Yellow);
+            rect->set_color(sf::Color::Blue);
             rect->set_size({200.0f, 200.0f});
             rect->set_radius(25.0f);
             rect->set_margin(margin);
@@ -43,8 +43,8 @@ int main() {
             rect_a.setPosition(rect->get_global_bounds().position);
             rect_a.setFillColor(sf::Color::Magenta);
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::G)) win.draw(rect_a);
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Right)) margin += 0.001f;
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Left)) margin -= 0.001f;
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Right)) margin += 0.01f;
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Left)) margin -= 0.01f;
         }
         win.display();
     }
