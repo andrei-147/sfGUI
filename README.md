@@ -9,7 +9,7 @@
 - If you wish to check out a working version of this library I recommend loading the first commit which has somewhat functional code.
 
 - **More more details:**
-- Installed gdb and fixed the problem in like 10 minutes, next on the to-do list are buttons! (I'm excited to do buttons cause they're cool!)
+- Installed gdb and fixed the problem in like 10 minutes, next on the to-do list are buttons and performance benchmarking stuff! (I'm excited to do buttons cause they're cool!)
 
 # Supported platforms:
 - _Currently the only platform supported is **Linux** and a **system-wide install** of SFML is required to run this library._
