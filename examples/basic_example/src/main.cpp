@@ -1,8 +1,6 @@
 #include "sfgui.hpp"
 #include "div.hpp"
 #include <SFML/Graphics.hpp>
-#include <SFML/Window/Keyboard.hpp>
-#include <print>
 
 #include "classes.hpp"
 #include "rectangle.hpp"

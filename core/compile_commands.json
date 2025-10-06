@@ -9,11 +9,79 @@
       "-std=c++23",
       "-c",
       "-o",
+      "bin.obj/Debug/div.o",
+      "src/div.cpp"
+    ],
+    "directory": "/home/andrei/Projects/devel/cpp/sf-imgui/core",
+    "file": "/home/andrei/Projects/devel/cpp/sf-imgui/core/src/div.cpp",
+    "output": "/home/andrei/Projects/devel/cpp/sf-imgui/core/bin.obj/Debug/div.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-DDEBUG",
+      "-Iinclude",
+      "-m64",
+      "-g",
+      "-std=c++23",
+      "-c",
+      "-o",
+      "bin.obj/Debug/element.o",
+      "src/element.cpp"
+    ],
+    "directory": "/home/andrei/Projects/devel/cpp/sf-imgui/core",
+    "file": "/home/andrei/Projects/devel/cpp/sf-imgui/core/src/element.cpp",
+    "output": "/home/andrei/Projects/devel/cpp/sf-imgui/core/bin.obj/Debug/element.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-DDEBUG",
+      "-Iinclude",
+      "-m64",
+      "-g",
+      "-std=c++23",
+      "-c",
+      "-o",
+      "bin.obj/Debug/rectangle.o",
+      "src/rectangle.cpp"
+    ],
+    "directory": "/home/andrei/Projects/devel/cpp/sf-imgui/core",
+    "file": "/home/andrei/Projects/devel/cpp/sf-imgui/core/src/rectangle.cpp",
+    "output": "/home/andrei/Projects/devel/cpp/sf-imgui/core/bin.obj/Debug/rectangle.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-DDEBUG",
+      "-Iinclude",
+      "-m64",
+      "-g",
+      "-std=c++23",
+      "-c",
+      "-o",
       "bin.obj/Debug/sfgui.o",
       "src/sfgui.cpp"
     ],
     "directory": "/home/andrei/Projects/devel/cpp/sf-imgui/core",
     "file": "/home/andrei/Projects/devel/cpp/sf-imgui/core/src/sfgui.cpp",
     "output": "/home/andrei/Projects/devel/cpp/sf-imgui/core/bin.obj/Debug/sfgui.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-DDEBUG",
+      "-Iinclude",
+      "-m64",
+      "-g",
+      "-std=c++23",
+      "-c",
+      "-o",
+      "bin.obj/Debug/transformable.o",
+      "src/transformable.cpp"
+    ],
+    "directory": "/home/andrei/Projects/devel/cpp/sf-imgui/core",
+    "file": "/home/andrei/Projects/devel/cpp/sf-imgui/core/src/transformable.cpp",
+    "output": "/home/andrei/Projects/devel/cpp/sf-imgui/core/bin.obj/Debug/transformable.o"
   }
 ]

@@ -28,7 +28,7 @@ ifeq ($(origin AR), default)
   AR = ar
 endif
 RESCOMP = windres
-INCLUDES += -I../../core/include -Iinclude -I../../dependencies/include
+INCLUDES += -I../../core/include -Iinclude
 FORCE_INCLUDE +=
 ALL_CPPFLAGS += $(CPPFLAGS) -MD -MP $(DEFINES) $(INCLUDES)
 ALL_RESFLAGS += $(RESFLAGS) $(DEFINES) $(INCLUDES)
@@ -49,7 +49,7 @@ ALL_CFLAGS += $(CFLAGS) $(ALL_CPPFLAGS) -m64 -g
 ALL_CXXFLAGS += $(CXXFLAGS) $(ALL_CPPFLAGS) -m64 -g -std=c++23
 LIBS += ../../core/bin/Debug/libsfgui.a -lGL -lsfml-system -lsfml-window -lsfml-graphics
 LDDEPS += ../../core/bin/Debug/libsfgui.a
-ALL_LDFLAGS += $(LDFLAGS) -L../../dependencies/lib -L/usr/lib64 -m64
+ALL_LDFLAGS += $(LDFLAGS) -L/usr/lib64 -m64
 
 else ifeq ($(config),release)
 TARGETDIR = bin/Release
@@ -60,7 +60,7 @@ ALL_CFLAGS += $(CFLAGS) $(ALL_CPPFLAGS) -m64 -O2
 ALL_CXXFLAGS += $(CXXFLAGS) $(ALL_CPPFLAGS) -m64 -O2 -std=c++23
 LIBS += ../../core/bin/Release/libsfgui.a -lGL -lsfml-system -lsfml-window -lsfml-graphics
 LDDEPS += ../../core/bin/Release/libsfgui.a
-ALL_LDFLAGS += $(LDFLAGS) -L../../dependencies/lib -L/usr/lib64 -m64 -s
+ALL_LDFLAGS += $(LDFLAGS) -L/usr/lib64 -m64 -s
 
 endif
 

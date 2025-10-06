@@ -1,13 +1,10 @@
 bin.obj/Debug/rectangle.o: src/rectangle.cpp /usr/include/stdc-predef.h \
- include/rectangle.hpp include/theme.hpp \
- ../dependencies/include/SFML/Graphics.hpp \
- ../dependencies/include/SFML/Graphics/BlendMode.hpp \
- ../dependencies/include/SFML/Graphics/Export.hpp \
- ../dependencies/include/SFML/Config.hpp \
- ../dependencies/include/SFML/Graphics/CircleShape.hpp \
- ../dependencies/include/SFML/Graphics/Shape.hpp \
- ../dependencies/include/SFML/Graphics/Color.hpp \
- /usr/include/c++/15.2.1/cstdint \
+ include/rectangle.hpp include/theme.hpp /usr/include/SFML/Graphics.hpp \
+ /usr/include/SFML/Graphics/BlendMode.hpp \
+ /usr/include/SFML/Graphics/Export.hpp /usr/include/SFML/Config.hpp \
+ /usr/include/SFML/Graphics/CircleShape.hpp \
+ /usr/include/SFML/Graphics/Shape.hpp \
+ /usr/include/SFML/Graphics/Color.hpp /usr/include/c++/15.2.1/cstdint \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -21,17 +18,13 @@ bin.obj/Debug/rectangle.o: src/rectangle.cpp /usr/include/stdc-predef.h \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h \
- ../dependencies/include/SFML/Graphics/Color.inl \
- ../dependencies/include/SFML/Graphics/Drawable.hpp \
- ../dependencies/include/SFML/Graphics/PrimitiveType.hpp \
- ../dependencies/include/SFML/Graphics/Rect.hpp \
- ../dependencies/include/SFML/System/Vector2.hpp \
- ../dependencies/include/SFML/System/Export.hpp \
- ../dependencies/include/SFML/System/Angle.hpp \
- ../dependencies/include/SFML/System/Angle.inl \
- /usr/include/c++/15.2.1/cassert /usr/include/assert.h \
- ../dependencies/include/SFML/System/Vector2.inl \
+ /usr/include/bits/stdint-least.h /usr/include/SFML/Graphics/Color.inl \
+ /usr/include/SFML/Graphics/Drawable.hpp \
+ /usr/include/SFML/Graphics/PrimitiveType.hpp \
+ /usr/include/SFML/Graphics/Rect.hpp /usr/include/SFML/System/Vector2.hpp \
+ /usr/include/SFML/System/Export.hpp /usr/include/SFML/System/Angle.hpp \
+ /usr/include/SFML/System/Angle.inl /usr/include/c++/15.2.1/cassert \
+ /usr/include/assert.h /usr/include/SFML/System/Vector2.inl \
  /usr/include/c++/15.2.1/optional /usr/include/c++/15.2.1/bits/version.h \
  /usr/include/c++/15.2.1/type_traits /usr/include/c++/15.2.1/exception \
  /usr/include/c++/15.2.1/bits/exception.h \
@@ -57,12 +50,12 @@ bin.obj/Debug/rectangle.o: src/rectangle.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/15.2.1/debug/assertions.h \
  /usr/include/c++/15.2.1/bits/utility.h /usr/include/c++/15.2.1/compare \
  /usr/include/c++/15.2.1/bits/invoke.h \
- ../dependencies/include/SFML/Graphics/Rect.inl \
- ../dependencies/include/SFML/Graphics/RenderStates.hpp \
- ../dependencies/include/SFML/Graphics/CoordinateType.hpp \
- ../dependencies/include/SFML/Graphics/StencilMode.hpp \
- ../dependencies/include/SFML/Graphics/Transform.hpp \
- /usr/include/c++/15.2.1/array /usr/include/c++/15.2.1/bits/functexcept.h \
+ /usr/include/SFML/Graphics/Rect.inl \
+ /usr/include/SFML/Graphics/RenderStates.hpp \
+ /usr/include/SFML/Graphics/CoordinateType.hpp \
+ /usr/include/SFML/Graphics/StencilMode.hpp \
+ /usr/include/SFML/Graphics/Transform.hpp /usr/include/c++/15.2.1/array \
+ /usr/include/c++/15.2.1/bits/functexcept.h \
  /usr/include/c++/15.2.1/bits/stl_algobase.h \
  /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
  /usr/include/c++/15.2.1/ext/type_traits.h \
@@ -72,12 +65,10 @@ bin.obj/Debug/rectangle.o: src/rectangle.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/15.2.1/debug/debug.h \
  /usr/include/c++/15.2.1/bits/predefined_ops.h \
  /usr/include/c++/15.2.1/bit /usr/include/c++/15.2.1/bits/range_access.h \
- ../dependencies/include/SFML/Graphics/Transform.inl \
- /usr/include/c++/15.2.1/cstddef \
- ../dependencies/include/SFML/Graphics/Transformable.hpp \
- ../dependencies/include/SFML/Graphics/VertexArray.hpp \
- ../dependencies/include/SFML/Graphics/Vertex.hpp \
- /usr/include/c++/15.2.1/vector \
+ /usr/include/SFML/Graphics/Transform.inl /usr/include/c++/15.2.1/cstddef \
+ /usr/include/SFML/Graphics/Transformable.hpp \
+ /usr/include/SFML/Graphics/VertexArray.hpp \
+ /usr/include/SFML/Graphics/Vertex.hpp /usr/include/c++/15.2.1/vector \
  /usr/include/c++/15.2.1/bits/requires_hosted.h \
  /usr/include/c++/15.2.1/bits/allocator.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
@@ -101,13 +92,11 @@ bin.obj/Debug/rectangle.o: src/rectangle.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/15.2.1/bits/uses_allocator.h \
  /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
  /usr/include/c++/15.2.1/tuple /usr/include/c++/15.2.1/bits/formatfwd.h \
- ../dependencies/include/SFML/Graphics/ConvexShape.hpp \
- ../dependencies/include/SFML/Graphics/Font.hpp \
- ../dependencies/include/SFML/Graphics/Glyph.hpp \
- ../dependencies/include/SFML/Graphics/Texture.hpp \
- ../dependencies/include/SFML/Window/GlResource.hpp \
- ../dependencies/include/SFML/Window/Export.hpp \
- /usr/include/c++/15.2.1/memory \
+ /usr/include/SFML/Graphics/ConvexShape.hpp \
+ /usr/include/SFML/Graphics/Font.hpp /usr/include/SFML/Graphics/Glyph.hpp \
+ /usr/include/SFML/Graphics/Texture.hpp \
+ /usr/include/SFML/Window/GlResource.hpp \
+ /usr/include/SFML/Window/Export.hpp /usr/include/c++/15.2.1/memory \
  /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
  /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
  /usr/include/c++/15.2.1/bits/align.h \
@@ -258,71 +247,58 @@ bin.obj/Debug/rectangle.o: src/rectangle.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/15.2.1/bits/hashtable_policy.h \
  /usr/include/c++/15.2.1/bits/node_handle.h \
  /usr/include/c++/15.2.1/bits/erase_if.h \
- ../dependencies/include/SFML/Graphics/Image.hpp \
- ../dependencies/include/SFML/Graphics/RectangleShape.hpp \
- ../dependencies/include/SFML/Graphics/RenderTarget.hpp \
- ../dependencies/include/SFML/Graphics/View.hpp \
- ../dependencies/include/SFML/Graphics/RenderTexture.hpp \
- ../dependencies/include/SFML/Window/ContextSettings.hpp \
- ../dependencies/include/SFML/Graphics/RenderWindow.hpp \
- ../dependencies/include/SFML/Window/VideoMode.hpp \
- ../dependencies/include/SFML/Window/Window.hpp \
- ../dependencies/include/SFML/Window/WindowBase.hpp \
- ../dependencies/include/SFML/Window/Vulkan.hpp \
- ../dependencies/include/SFML/Window/WindowEnums.hpp \
- ../dependencies/include/SFML/Window/WindowHandle.hpp \
- ../dependencies/include/SFML/System/Time.hpp \
- /usr/include/c++/15.2.1/chrono /usr/include/c++/15.2.1/bits/chrono_io.h \
- ../dependencies/include/SFML/System/Time.inl \
- ../dependencies/include/SFML/Window/WindowBase.inl \
- ../dependencies/include/SFML/Window/Event.hpp \
- ../dependencies/include/SFML/Window/Joystick.hpp \
- ../dependencies/include/SFML/System/String.hpp \
- ../dependencies/include/SFML/System/Utf.hpp \
- ../dependencies/include/SFML/System/Utf.inl \
- ../dependencies/include/SFML/System/String.inl \
+ /usr/include/SFML/Graphics/Image.hpp \
+ /usr/include/SFML/Graphics/RectangleShape.hpp \
+ /usr/include/SFML/Graphics/RenderTarget.hpp \
+ /usr/include/SFML/Graphics/View.hpp \
+ /usr/include/SFML/Graphics/RenderTexture.hpp \
+ /usr/include/SFML/Window/ContextSettings.hpp \
+ /usr/include/SFML/Graphics/RenderWindow.hpp \
+ /usr/include/SFML/Window/VideoMode.hpp \
+ /usr/include/SFML/Window/Window.hpp \
+ /usr/include/SFML/Window/WindowBase.hpp \
+ /usr/include/SFML/Window/Vulkan.hpp \
+ /usr/include/SFML/Window/WindowEnums.hpp \
+ /usr/include/SFML/Window/WindowHandle.hpp \
+ /usr/include/SFML/System/Time.hpp /usr/include/c++/15.2.1/chrono \
+ /usr/include/c++/15.2.1/bits/chrono_io.h \
+ /usr/include/SFML/System/Time.inl \
+ /usr/include/SFML/Window/WindowBase.inl \
+ /usr/include/SFML/Window/Event.hpp /usr/include/SFML/Window/Joystick.hpp \
+ /usr/include/SFML/System/String.hpp /usr/include/SFML/System/Utf.hpp \
+ /usr/include/SFML/System/Utf.inl /usr/include/SFML/System/String.inl \
  /usr/include/c++/15.2.1/iterator \
  /usr/include/c++/15.2.1/bits/stream_iterator.h \
- ../dependencies/include/SFML/Window/Keyboard.hpp \
- ../dependencies/include/SFML/Window/Mouse.hpp \
- ../dependencies/include/SFML/Window/Sensor.hpp \
- ../dependencies/include/SFML/System/Vector3.hpp \
- ../dependencies/include/SFML/System/Vector3.inl \
- /usr/include/c++/15.2.1/variant \
- ../dependencies/include/SFML/Window/Event.inl \
- /usr/include/c++/15.2.1/utility \
+ /usr/include/SFML/Window/Keyboard.hpp /usr/include/SFML/Window/Mouse.hpp \
+ /usr/include/SFML/Window/Sensor.hpp /usr/include/SFML/System/Vector3.hpp \
+ /usr/include/SFML/System/Vector3.inl /usr/include/c++/15.2.1/variant \
+ /usr/include/SFML/Window/Event.inl /usr/include/c++/15.2.1/utility \
  /usr/include/c++/15.2.1/bits/stl_relops.h \
- ../dependencies/include/SFML/System/Clock.hpp \
- ../dependencies/include/SFML/Graphics/Shader.hpp \
- ../dependencies/include/SFML/Graphics/Glsl.hpp \
- ../dependencies/include/SFML/Graphics/Glsl.inl \
- ../dependencies/include/SFML/Graphics/Sprite.hpp \
- ../dependencies/include/SFML/Graphics/Text.hpp \
- ../dependencies/include/SFML/Graphics/VertexBuffer.hpp \
- ../dependencies/include/SFML/Window.hpp \
- ../dependencies/include/SFML/Window/Clipboard.hpp \
- ../dependencies/include/SFML/Window/Context.hpp \
- ../dependencies/include/SFML/Window/Cursor.hpp \
- ../dependencies/include/SFML/Window/Touch.hpp \
- ../dependencies/include/SFML/System.hpp \
- ../dependencies/include/SFML/System/Err.hpp \
- ../dependencies/include/SFML/System/Exception.hpp \
- ../dependencies/include/SFML/System/FileInputStream.hpp \
- ../dependencies/include/SFML/System/InputStream.hpp \
- ../dependencies/include/SFML/System/MemoryInputStream.hpp \
- ../dependencies/include/SFML/System/Sleep.hpp include/classes.hpp \
+ /usr/include/SFML/System/Clock.hpp /usr/include/SFML/Graphics/Shader.hpp \
+ /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
+ /usr/include/SFML/Graphics/Sprite.hpp \
+ /usr/include/SFML/Graphics/Text.hpp \
+ /usr/include/SFML/Graphics/VertexBuffer.hpp /usr/include/SFML/Window.hpp \
+ /usr/include/SFML/Window/Clipboard.hpp \
+ /usr/include/SFML/Window/Context.hpp /usr/include/SFML/Window/Cursor.hpp \
+ /usr/include/SFML/Window/Touch.hpp /usr/include/SFML/System.hpp \
+ /usr/include/SFML/System/Err.hpp /usr/include/SFML/System/Exception.hpp \
+ /usr/include/SFML/System/FileInputStream.hpp \
+ /usr/include/SFML/System/InputStream.hpp \
+ /usr/include/SFML/System/MemoryInputStream.hpp \
+ /usr/include/SFML/System/Sleep.hpp include/classes.hpp \
  include/transformable.hpp include/element.hpp include/div.hpp \
  include/theme.hpp
 /usr/include/stdc-predef.h:
 include/rectangle.hpp:
 include/theme.hpp:
-../dependencies/include/SFML/Graphics.hpp:
-../dependencies/include/SFML/Graphics/BlendMode.hpp:
-../dependencies/include/SFML/Graphics/Export.hpp:
-../dependencies/include/SFML/Config.hpp:
-../dependencies/include/SFML/Graphics/CircleShape.hpp:
-../dependencies/include/SFML/Graphics/Shape.hpp:
-../dependencies/include/SFML/Graphics/Color.hpp:
+/usr/include/SFML/Graphics.hpp:
+/usr/include/SFML/Graphics/BlendMode.hpp:
+/usr/include/SFML/Graphics/Export.hpp:
+/usr/include/SFML/Config.hpp:
+/usr/include/SFML/Graphics/CircleShape.hpp:
+/usr/include/SFML/Graphics/Shape.hpp:
+/usr/include/SFML/Graphics/Color.hpp:
 /usr/include/c++/15.2.1/cstdint:
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
@@ -346,17 +322,17 @@ include/theme.hpp:
 /usr/include/bits/stdint-intn.h:
 /usr/include/bits/stdint-uintn.h:
 /usr/include/bits/stdint-least.h:
-../dependencies/include/SFML/Graphics/Color.inl:
-../dependencies/include/SFML/Graphics/Drawable.hpp:
-../dependencies/include/SFML/Graphics/PrimitiveType.hpp:
-../dependencies/include/SFML/Graphics/Rect.hpp:
-../dependencies/include/SFML/System/Vector2.hpp:
-../dependencies/include/SFML/System/Export.hpp:
-../dependencies/include/SFML/System/Angle.hpp:
-../dependencies/include/SFML/System/Angle.inl:
+/usr/include/SFML/Graphics/Color.inl:
+/usr/include/SFML/Graphics/Drawable.hpp:
+/usr/include/SFML/Graphics/PrimitiveType.hpp:
+/usr/include/SFML/Graphics/Rect.hpp:
+/usr/include/SFML/System/Vector2.hpp:
+/usr/include/SFML/System/Export.hpp:
+/usr/include/SFML/System/Angle.hpp:
+/usr/include/SFML/System/Angle.inl:
 /usr/include/c++/15.2.1/cassert:
 /usr/include/assert.h:
-../dependencies/include/SFML/System/Vector2.inl:
+/usr/include/SFML/System/Vector2.inl:
 /usr/include/c++/15.2.1/optional:
 /usr/include/c++/15.2.1/bits/version.h:
 /usr/include/c++/15.2.1/type_traits:
@@ -386,11 +362,11 @@ include/theme.hpp:
 /usr/include/c++/15.2.1/bits/utility.h:
 /usr/include/c++/15.2.1/compare:
 /usr/include/c++/15.2.1/bits/invoke.h:
-../dependencies/include/SFML/Graphics/Rect.inl:
-../dependencies/include/SFML/Graphics/RenderStates.hpp:
-../dependencies/include/SFML/Graphics/CoordinateType.hpp:
-../dependencies/include/SFML/Graphics/StencilMode.hpp:
-../dependencies/include/SFML/Graphics/Transform.hpp:
+/usr/include/SFML/Graphics/Rect.inl:
+/usr/include/SFML/Graphics/RenderStates.hpp:
+/usr/include/SFML/Graphics/CoordinateType.hpp:
+/usr/include/SFML/Graphics/StencilMode.hpp:
+/usr/include/SFML/Graphics/Transform.hpp:
 /usr/include/c++/15.2.1/array:
 /usr/include/c++/15.2.1/bits/functexcept.h:
 /usr/include/c++/15.2.1/bits/stl_algobase.h:
@@ -403,11 +379,11 @@ include/theme.hpp:
 /usr/include/c++/15.2.1/bits/predefined_ops.h:
 /usr/include/c++/15.2.1/bit:
 /usr/include/c++/15.2.1/bits/range_access.h:
-../dependencies/include/SFML/Graphics/Transform.inl:
+/usr/include/SFML/Graphics/Transform.inl:
 /usr/include/c++/15.2.1/cstddef:
-../dependencies/include/SFML/Graphics/Transformable.hpp:
-../dependencies/include/SFML/Graphics/VertexArray.hpp:
-../dependencies/include/SFML/Graphics/Vertex.hpp:
+/usr/include/SFML/Graphics/Transformable.hpp:
+/usr/include/SFML/Graphics/VertexArray.hpp:
+/usr/include/SFML/Graphics/Vertex.hpp:
 /usr/include/c++/15.2.1/vector:
 /usr/include/c++/15.2.1/bits/requires_hosted.h:
 /usr/include/c++/15.2.1/bits/allocator.h:
@@ -433,12 +409,12 @@ include/theme.hpp:
 /usr/include/c++/15.2.1/bits/uses_allocator_args.h:
 /usr/include/c++/15.2.1/tuple:
 /usr/include/c++/15.2.1/bits/formatfwd.h:
-../dependencies/include/SFML/Graphics/ConvexShape.hpp:
-../dependencies/include/SFML/Graphics/Font.hpp:
-../dependencies/include/SFML/Graphics/Glyph.hpp:
-../dependencies/include/SFML/Graphics/Texture.hpp:
-../dependencies/include/SFML/Window/GlResource.hpp:
-../dependencies/include/SFML/Window/Export.hpp:
+/usr/include/SFML/Graphics/ConvexShape.hpp:
+/usr/include/SFML/Graphics/Font.hpp:
+/usr/include/SFML/Graphics/Glyph.hpp:
+/usr/include/SFML/Graphics/Texture.hpp:
+/usr/include/SFML/Window/GlResource.hpp:
+/usr/include/SFML/Window/Export.hpp:
 /usr/include/c++/15.2.1/memory:
 /usr/include/c++/15.2.1/bits/stl_tempbuf.h:
 /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h:
@@ -651,60 +627,60 @@ include/theme.hpp:
 /usr/include/c++/15.2.1/bits/hashtable_policy.h:
 /usr/include/c++/15.2.1/bits/node_handle.h:
 /usr/include/c++/15.2.1/bits/erase_if.h:
-../dependencies/include/SFML/Graphics/Image.hpp:
-../dependencies/include/SFML/Graphics/RectangleShape.hpp:
-../dependencies/include/SFML/Graphics/RenderTarget.hpp:
-../dependencies/include/SFML/Graphics/View.hpp:
-../dependencies/include/SFML/Graphics/RenderTexture.hpp:
-../dependencies/include/SFML/Window/ContextSettings.hpp:
-../dependencies/include/SFML/Graphics/RenderWindow.hpp:
-../dependencies/include/SFML/Window/VideoMode.hpp:
-../dependencies/include/SFML/Window/Window.hpp:
-../dependencies/include/SFML/Window/WindowBase.hpp:
-../dependencies/include/SFML/Window/Vulkan.hpp:
-../dependencies/include/SFML/Window/WindowEnums.hpp:
-../dependencies/include/SFML/Window/WindowHandle.hpp:
-../dependencies/include/SFML/System/Time.hpp:
+/usr/include/SFML/Graphics/Image.hpp:
+/usr/include/SFML/Graphics/RectangleShape.hpp:
+/usr/include/SFML/Graphics/RenderTarget.hpp:
+/usr/include/SFML/Graphics/View.hpp:
+/usr/include/SFML/Graphics/RenderTexture.hpp:
+/usr/include/SFML/Window/ContextSettings.hpp:
+/usr/include/SFML/Graphics/RenderWindow.hpp:
+/usr/include/SFML/Window/VideoMode.hpp:
+/usr/include/SFML/Window/Window.hpp:
+/usr/include/SFML/Window/WindowBase.hpp:
+/usr/include/SFML/Window/Vulkan.hpp:
+/usr/include/SFML/Window/WindowEnums.hpp:
+/usr/include/SFML/Window/WindowHandle.hpp:
+/usr/include/SFML/System/Time.hpp:
 /usr/include/c++/15.2.1/chrono:
 /usr/include/c++/15.2.1/bits/chrono_io.h:
-../dependencies/include/SFML/System/Time.inl:
-../dependencies/include/SFML/Window/WindowBase.inl:
-../dependencies/include/SFML/Window/Event.hpp:
-../dependencies/include/SFML/Window/Joystick.hpp:
-../dependencies/include/SFML/System/String.hpp:
-../dependencies/include/SFML/System/Utf.hpp:
-../dependencies/include/SFML/System/Utf.inl:
-../dependencies/include/SFML/System/String.inl:
+/usr/include/SFML/System/Time.inl:
+/usr/include/SFML/Window/WindowBase.inl:
+/usr/include/SFML/Window/Event.hpp:
+/usr/include/SFML/Window/Joystick.hpp:
+/usr/include/SFML/System/String.hpp:
+/usr/include/SFML/System/Utf.hpp:
+/usr/include/SFML/System/Utf.inl:
+/usr/include/SFML/System/String.inl:
 /usr/include/c++/15.2.1/iterator:
 /usr/include/c++/15.2.1/bits/stream_iterator.h:
-../dependencies/include/SFML/Window/Keyboard.hpp:
-../dependencies/include/SFML/Window/Mouse.hpp:
-../dependencies/include/SFML/Window/Sensor.hpp:
-../dependencies/include/SFML/System/Vector3.hpp:
-../dependencies/include/SFML/System/Vector3.inl:
+/usr/include/SFML/Window/Keyboard.hpp:
+/usr/include/SFML/Window/Mouse.hpp:
+/usr/include/SFML/Window/Sensor.hpp:
+/usr/include/SFML/System/Vector3.hpp:
+/usr/include/SFML/System/Vector3.inl:
 /usr/include/c++/15.2.1/variant:
-../dependencies/include/SFML/Window/Event.inl:
+/usr/include/SFML/Window/Event.inl:
 /usr/include/c++/15.2.1/utility:
 /usr/include/c++/15.2.1/bits/stl_relops.h:
-../dependencies/include/SFML/System/Clock.hpp:
-../dependencies/include/SFML/Graphics/Shader.hpp:
-../dependencies/include/SFML/Graphics/Glsl.hpp:
-../dependencies/include/SFML/Graphics/Glsl.inl:
-../dependencies/include/SFML/Graphics/Sprite.hpp:
-../dependencies/include/SFML/Graphics/Text.hpp:
-../dependencies/include/SFML/Graphics/VertexBuffer.hpp:
-../dependencies/include/SFML/Window.hpp:
-../dependencies/include/SFML/Window/Clipboard.hpp:
-../dependencies/include/SFML/Window/Context.hpp:
-../dependencies/include/SFML/Window/Cursor.hpp:
-../dependencies/include/SFML/Window/Touch.hpp:
-../dependencies/include/SFML/System.hpp:
-../dependencies/include/SFML/System/Err.hpp:
-../dependencies/include/SFML/System/Exception.hpp:
-../dependencies/include/SFML/System/FileInputStream.hpp:
-../dependencies/include/SFML/System/InputStream.hpp:
-../dependencies/include/SFML/System/MemoryInputStream.hpp:
-../dependencies/include/SFML/System/Sleep.hpp:
+/usr/include/SFML/System/Clock.hpp:
+/usr/include/SFML/Graphics/Shader.hpp:
+/usr/include/SFML/Graphics/Glsl.hpp:
+/usr/include/SFML/Graphics/Glsl.inl:
+/usr/include/SFML/Graphics/Sprite.hpp:
+/usr/include/SFML/Graphics/Text.hpp:
+/usr/include/SFML/Graphics/VertexBuffer.hpp:
+/usr/include/SFML/Window.hpp:
+/usr/include/SFML/Window/Clipboard.hpp:
+/usr/include/SFML/Window/Context.hpp:
+/usr/include/SFML/Window/Cursor.hpp:
+/usr/include/SFML/Window/Touch.hpp:
+/usr/include/SFML/System.hpp:
+/usr/include/SFML/System/Err.hpp:
+/usr/include/SFML/System/Exception.hpp:
+/usr/include/SFML/System/FileInputStream.hpp:
+/usr/include/SFML/System/InputStream.hpp:
+/usr/include/SFML/System/MemoryInputStream.hpp:
+/usr/include/SFML/System/Sleep.hpp:
 include/classes.hpp:
 include/transformable.hpp:
 include/element.hpp:

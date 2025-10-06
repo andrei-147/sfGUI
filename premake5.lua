@@ -14,11 +14,6 @@ project "Core"
 
     includedirs {
         "core/include",
-        "dependencies/include"
-    }
-
-    libdirs {
-        "dependencies/lib"
     }
 
     files {
@@ -62,11 +57,6 @@ project "basic_example"
     includedirs {
         "core/include",
         "examples/basic_example/include",
-        "dependencies/include"
-    }
-
-    libdirs {
-        "dependencies/lib"
     }
 
     files {
