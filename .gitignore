@@ -1,0 +1,9 @@
+*.o
+*.d
+*.idx
+*.make
+Makefile
+core/bin/
+core/bin.obj/
+examples/basic_example/bin/
+examples/basic_example/bin.obj/
