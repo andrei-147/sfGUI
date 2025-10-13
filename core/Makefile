@@ -72,11 +72,13 @@ endif
 GENERATED :=
 OBJECTS :=
 
+GENERATED += $(OBJDIR)/button.o
 GENERATED += $(OBJDIR)/div.o
 GENERATED += $(OBJDIR)/element.o
 GENERATED += $(OBJDIR)/rectangle.o
 GENERATED += $(OBJDIR)/sfgui.o
 GENERATED += $(OBJDIR)/transformable.o
+OBJECTS += $(OBJDIR)/button.o
 OBJECTS += $(OBJDIR)/div.o
 OBJECTS += $(OBJDIR)/element.o
 OBJECTS += $(OBJDIR)/rectangle.o
@@ -145,6 +147,9 @@ endif
 # File Rules
 # #############################################
 
+$(OBJDIR)/button.o: src/button.cpp
+	@echo "$(notdir $<)"
+	$(SILENT) $(CXX) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"
 $(OBJDIR)/div.o: src/div.cpp
 	@echo "$(notdir $<)"
 	$(SILENT) $(CXX) $(ALL_CXXFLAGS) $(FORCE_INCLUDE) -o "$@" -MF "$(@:%.o=%.d)" -c "$<"

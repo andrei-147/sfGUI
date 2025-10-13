@@ -14,12 +14,13 @@ struct Transformable_Properties : public Element_Properties {
 
 class Transformable : public Element {
 
-private:
-    Transformable_Properties m_properties = Transformable_Properties();
+protected:
+    virtual Transformable_Properties& transformable_properties() = 0;
+    virtual const Transformable_Properties& transformable_properties() const = 0;
 
 public:
     Transformable() = default;
-    ~Transformable() = default;
+    virtual ~Transformable() = default;
 
     virtual void update() {}
     virtual void draw(sf::RenderWindow&) {}

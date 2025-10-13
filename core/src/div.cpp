@@ -1,6 +1,10 @@
 #include "div.hpp"
 #include <SFML/System/Vector2.hpp>
 #include <print>
+#include "element.hpp"
+#include "rectangle.hpp"
+#include "transformable.hpp"
+#include <typeinfo>
 
 namespace sfGUI {
 Div::Div(Div *parent_ptr) {
@@ -17,6 +21,23 @@ Div::~Div() {
     m_elements.clear();
 }
 
+
+const Element_Properties& Div::properties() const {
+    return static_cast<const Element_Properties&>(m_properties);
+}
+
+const Transformable_Properties& Div::transformable_properties() const {
+    return m_properties;
+}
+
+Element_Properties& Div::properties() {
+    return static_cast<Element_Properties&>(m_properties);
+}
+
+Transformable_Properties& Div::transformable_properties() {
+    return m_properties;
+}
+
 void Div::update() {
     for (const auto elem : m_elements) {
         elem->update();
@@ -30,13 +51,18 @@ void Div::draw(sf::RenderWindow &win) {
         bg_rect.setPosition(m_properties.position);
         win.draw(bg_rect);
     }
+    sf::Vector2f max_point = {0, 0};
+    static uint32_t cnt = 0;
     for (const auto elem : m_elements) {
-        sf::Vector2f max_point = elem->get_position() + elem->get_size();
-        if (max_point.x > m_properties.size.x || max_point.y > m_properties.size.y) {
-            std::println("Error: Element too big!: curr/max x: {}/{}, curr/max y: {}/{}", max_point.x, m_properties.size.x, max_point.y, m_properties.size.y);
-            continue;
-        }
+        max_point = elem->get_position() + elem->get_size();
         elem->draw(win);
+        if (max_point.x > m_properties.size.x || max_point.y > m_properties.size.y) {
+            if (cnt) {
+                std::println("Error: Element too big!: curr/max x: {}/{}, curr/max y: {}/{}", max_point.x, m_properties.size.x, max_point.y, m_properties.size.y);
+                // exit(1);
+            }
+            ++cnt;
+        }
     }
 }
 

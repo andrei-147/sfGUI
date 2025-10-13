@@ -9,20 +9,24 @@ namespace sfGUI {
 
 class Div : public Transformable {
 
-private:
+protected:
     Transformable_Properties m_properties = Transformable_Properties();
 
-protected:
     Div* m_parent_ptr;
     std::vector<Element*> m_elements;
     sf::Vector2f m_elem_ptr;
     float m_padding;
     sf::Color m_background_color;
 
+    Element_Properties& properties() override;
+    const Element_Properties& properties() const override;
+    Transformable_Properties& transformable_properties() override;
+    const Transformable_Properties& transformable_properties() const override;
+
 public:
     Div() = delete;
     Div(Div*);
-    ~Div();
+    ~Div() override;
 
     void update() override;
     void draw(sf::RenderWindow&) override;

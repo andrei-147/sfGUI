@@ -20,14 +20,14 @@ struct Element_Properties {
 
 class Element {
 
-private:
-    Element_Properties m_properties = Element_Properties();
 protected:
+    virtual Element_Properties& properties() = 0;
+    virtual const Element_Properties& properties() const = 0;
     Div* m_div_parent = nullptr;
 
 public:
     Element() = default;
-    ~Element() = default;
+    virtual ~Element() = default;
 
     virtual void update() {}
     virtual void draw(sf::RenderWindow&) {}
@@ -44,7 +44,7 @@ public:
     virtual void set_margin(const float);
     [[nodiscard]] float get_margin() const;
 
-    virtual void set_margins(const float, const float, const float, const float);
+    virtual void set_margins(const float top, const float bottom, const float left, const float right);
     [[nodiscard]] float get_margin_top() const;
     [[nodiscard]] float get_margin_bottom() const;
     [[nodiscard]] float get_margin_left() const;
