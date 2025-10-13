@@ -23,4 +23,5 @@
 
 # Supported platforms:
 - _Currently the only platform supported is **Linux** and a **system-wide install** of SFML is required to run this library._
-- _Note:_ I will add support for other platforms after I am done with a prototype of the library. Until then... _works on my machine :)_
+- _Note:_ I will add support for other platforms after I am done with a prototype of the library. Until then... _I guess it works on my machine ¯\_(ツ)_/¯_
+
